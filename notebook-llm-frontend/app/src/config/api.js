@@ -1,0 +1,10 @@
+const API_CONFIG = {
+  BASE_URL: process.env.REACT_APP_API_BASE_URL ,
+  ENDPOINTS: {
+    ASK: process.env.REACT_APP_ASK_ENDPOINT ,
+    UPLOAD: process.env.REACT_APP_UPLOAD_ENDPOINT ,
+    CONVERSATIONS: process.env.REACT_APP_CONVERSATIONS_ENDPOINT ,
+  }
+};
+
+export default API_CONFIG;

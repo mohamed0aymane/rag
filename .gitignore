@@ -1,0 +1,24 @@
+# Spring Boot
+application.properties
+application.yml
+application-*.properties
+application-*.yml
+# Node
+node_modules/
+.env
+.env.local
+.env.development
+.env.production
+
+
+# Logs
+*.log
+
+# Build
+target/
+build/
+
+# IDE
+.idea/
+.vscode/
+*.iml

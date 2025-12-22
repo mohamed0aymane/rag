@@ -1,0 +1,35 @@
+
+services:
+  ollama:
+    image: ollama/ollama:latest
+    container_name: ollama
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama-data:/root/.ollama
+    mem_limit: 5g 
+  
+  chroma:
+    image: chromadb/chroma:0.4.24
+    container_name: chroma
+    ports:
+      - "8000:8000"
+    volumes:
+      - chroma-data:/chroma
+
+  mongodb:
+    image: mongo:7
+    container_name: mongodb
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo-data:/data/db
+      - ./mongodb:/docker-entrypoint-initdb.d
+
+
+
+      
+volumes:
+  ollama-data:
+  chroma-data:
+  mongo-data:

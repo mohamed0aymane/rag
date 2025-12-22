@@ -1,0 +1,76 @@
+.uploaded-files h3 {
+  color: #333;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #f0f0f0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.no-files {
+  text-align: center;
+  padding: 30px 20px;
+  color: #888;
+  background: #f8f8f8;
+  border-radius: 10px;
+}
+
+.no-files p:first-child {
+  font-size: 1.1em;
+  margin-bottom: 5px;
+}
+
+.files-grid {
+  display: grid;
+  gap: 15px;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.file-card {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 15px;
+  background: #f8f8f8;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.file-card:hover {
+  border-color: #667eea;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.file-icon {
+  font-size: 1.8em;
+}
+
+.file-info {
+  flex: 1;
+}
+
+.file-name {
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 5px;
+  word-break: break-all;
+}
+
+.file-meta {
+  display: flex;
+  gap: 15px;
+  font-size: 0.85em;
+  color: #888;
+}
+
+.file-type {
+  background: #667eea;
+  color: white;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 0.75em;
+}

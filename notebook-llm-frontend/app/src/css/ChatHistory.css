@@ -1,0 +1,83 @@
+.chat-history h3 {
+  color: #333;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.no-history {
+  text-align: center;
+  padding: 40px 20px;
+  color: #888;
+}
+
+.no-history p:first-child {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.conversations-list {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.conversation {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.conversation:last-child {
+  border-bottom: none;
+}
+
+.message {
+  padding: 15px;
+  border-radius: 12px;
+  max-width: 80%;
+}
+
+.message-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  font-weight: 600;
+  font-size: 0.9em;
+}
+
+.message-role {
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 0.85em;
+}
+
+.user-message {
+  align-self: flex-start;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  margin-right: auto;
+}
+
+.user-message .message-role {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.assistant-message {
+  align-self: flex-end;
+  background: #f0f0f0;
+  color: #333;
+  margin-left: auto;
+}
+
+.assistant-message .message-role {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.message-content {
+  line-height: 1.6;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
