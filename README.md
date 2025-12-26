@@ -8,6 +8,7 @@
 5. [Docker](#5-docker)
 6. [Lancer l’application](#6-lancer-lapplication)
 7. [Notes importantes / Dépannage](#7-notes-importantes--dépannage)
+8. [Vedios pour l'explication](#8-vedios-pour-l'explication)
    
 ## 1. Qu’est-ce qu’un RAG ?
 
@@ -132,3 +133,9 @@ Lancer le frontend : ` npm start `
 ### 5. Timeouts LLM :
 
 - Pour des PDF volumineux, ajustez  `model.timeout ` dans application.properties.
+## 8. Vedio pour l'explication 
+[Vedio d'explication](https://drive.google.com/file/d/1IJyk4gl97fqb2K-tLtN6LOrPMmMG2Se_/view)
+[Resultat](https://drive.google.com/file/d/1G5Ph6QOPTGlQIa0JdBO03HnHUI323st9/view)
+
+
+
