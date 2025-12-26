@@ -8,7 +8,7 @@
 5. [Docker](#5-docker)
 6. [Lancer l’application](#6-lancer-lapplication)
 7. [Notes importantes / Dépannage](#7-notes-importantes--dépannage)
-8. [Vedios pour l'explication](#8-vedios-pour-l'explication)
+8. [Vedios pour l'explication](#8-vedios-pour-lexplication)
    
 ## 1. Qu’est-ce qu’un RAG ?
 
